@@ -8,9 +8,11 @@ Admin: - таблица с данными об администраторах
 
 
 | Field    | Type        | Null | Key | Default | Extra |
-***
+
+
 | login    | varchar(30) | NO   | PRI | NULL    |       |
-***
+
+
 | password | varchar(30) | NO   | UNI | NULL    |       |
 
 
@@ -20,12 +22,15 @@ Admin: - таблица с данными об администраторах
 Analiz - таблица с данными о выполняемых анализах 
 
 
-| Field           | Type     | Null | Key | Default | Extra          |***
+| Field           | Type     | Null | Key | Default | Extra          |
 
-| idanaliz        | int      | NO   | PRI | NULL    | auto_increment |***
-| uslugi_iduslugi | int      | NO   | MUL | NULL    |                |***
-| timeStart       | datetime | NO   |     | NULL    |                |***
-| timeEnd         | datetime | NO   |     | NULL    |                |***
+| idanaliz        | int      | NO   | PRI | NULL    | auto_increment |
+
+| uslugi_iduslugi | int      | NO   | MUL | NULL    |                |
+
+| timeStart       | datetime | NO   |     | NULL    |                |
+
+| timeEnd         | datetime | NO   |     | NULL    |                |
 
 
 buhg - таблица с данными об бухгалтерах
