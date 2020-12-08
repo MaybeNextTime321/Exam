@@ -7,9 +7,9 @@
 Admin: - таблица с данными об администраторах
 
 
-| Field    | Type        | Null | Key | Default | Extra |
-| login    | varchar(30) | NO   | PRI | NULL    |       |
-| password | varchar(30) | NO   | UNI | NULL    |       |
+| Field    | Type        | Null | Key | Default | Extra |---
+| login    | varchar(30) | NO   | PRI | NULL    |       |---
+| password | varchar(30) | NO   | UNI | NULL    |       |---
 
 
 Analiz - таблица с данными о выполняемых анализах 
