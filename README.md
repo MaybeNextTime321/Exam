@@ -14,16 +14,19 @@ Admin: - таблица с данными об администраторах
 | password | varchar(30) | NO   | UNI | NULL    |       |
 
 
+
+
+
 Analiz - таблица с данными о выполняемых анализах 
 
-+-----------------+----------+------+-----+---------+----------------+
-| Field           | Type     | Null | Key | Default | Extra          |
-+-----------------+----------+------+-----+---------+----------------+
-| idanaliz        | int      | NO   | PRI | NULL    | auto_increment |
-| uslugi_iduslugi | int      | NO   | MUL | NULL    |                |
-| timeStart       | datetime | NO   |     | NULL    |                |
-| timeEnd         | datetime | NO   |     | NULL    |                |
-+-----------------+----------+------+-----+---------+----------------+
+
+| Field           | Type     | Null | Key | Default | Extra          |***
+
+| idanaliz        | int      | NO   | PRI | NULL    | auto_increment |***
+| uslugi_iduslugi | int      | NO   | MUL | NULL    |                |***
+| timeStart       | datetime | NO   |     | NULL    |                |***
+| timeEnd         | datetime | NO   |     | NULL    |                |***
+
 
 buhg - таблица с данными об бухгалтерах
 
